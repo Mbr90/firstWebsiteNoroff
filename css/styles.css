@@ -6,6 +6,10 @@ header {
   background-repeat: no-repeat;
 }
 
+.frontPageImage {
+  width: 100%;
+}
+
 footer {
   background-color: #6c899e;
   min-height: 4em;
@@ -15,9 +19,26 @@ nav li {
   display: inline-block;
 }
 
-nav a {
+nav a,
+footer p,
+footer li {
   color: #f2f2f2;
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  position: relative;
+  list-style-type: none;
+  margin: 15px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+.topnav-right {
+  margin: 2em;
+  float: right;
+  font-weight: bold;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
