@@ -1,0 +1,23 @@
+header {
+  background-color: #709e5c;
+  min-height: 4em;
+  background-image: url("../images/SquareEyes_Logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-color: #6c899e;
+  min-height: 4em;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+}
