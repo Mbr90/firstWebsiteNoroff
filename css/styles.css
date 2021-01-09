@@ -1,3 +1,9 @@
+body {
+  display: grid;
+  grid-gap: 3em;
+  grid-template-rows: auto, auto, 1fr, auto;
+  min-height: 100vh;
+}
 header {
   background-color: #709e5c;
   min-height: 4em;
@@ -37,6 +43,11 @@ nav a:hover {
   margin: 2em;
   float: right;
   font-weight: bold;
+  font-size: large;
+}
+.footerNav {
+  float: right;
+  text-decoration: none;
 }
 
 p {
